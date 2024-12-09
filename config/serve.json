@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://wplrn.sharepoint.com/sites/MSFT/SitePages/Home.aspx",
+      "customActions": {
+        "5765c556-d173-4283-9aa3-c06b26323310": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "globalNavigationBar": {
+      "pageUrl": "https://wplrn.sharepoint.com/sites/MSFT/SitePages/Home.aspx",
+      "customActions": {
+        "5765c556-d173-4283-9aa3-c06b26323310": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

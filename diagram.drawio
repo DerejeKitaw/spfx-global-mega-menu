@@ -1,0 +1,64 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Page-1" id="n4eZsKLVikvAcFjzHB1D">
+    <mxGraphModel dx="2045" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JbOAb2mLYmQJVCmTnfHO-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JbOAb2mLYmQJVCmTnfHO-1" target="JbOAb2mLYmQJVCmTnfHO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JbOAb2mLYmQJVCmTnfHO-1" value="User accesses SharePoint page" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JbOAb2mLYmQJVCmTnfHO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JbOAb2mLYmQJVCmTnfHO-2" target="JbOAb2mLYmQJVCmTnfHO-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JbOAb2mLYmQJVCmTnfHO-2" value="Extension is initialized by SPFx" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JbOAb2mLYmQJVCmTnfHO-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JbOAb2mLYmQJVCmTnfHO-3" target="JbOAb2mLYmQJVCmTnfHO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JbOAb2mLYmQJVCmTnfHO-3" value="Fetch Navigation Links from SharePoint List." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JbOAb2mLYmQJVCmTnfHO-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JbOAb2mLYmQJVCmTnfHO-4" target="JbOAb2mLYmQJVCmTnfHO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JbOAb2mLYmQJVCmTnfHO-4" value="Fetch Current User Information" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JbOAb2mLYmQJVCmTnfHO-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JbOAb2mLYmQJVCmTnfHO-5" target="JbOAb2mLYmQJVCmTnfHO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JbOAb2mLYmQJVCmTnfHO-5" value="Fetch Site Security Groups" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JbOAb2mLYmQJVCmTnfHO-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JbOAb2mLYmQJVCmTnfHO-6" target="JbOAb2mLYmQJVCmTnfHO-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JbOAb2mLYmQJVCmTnfHO-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JbOAb2mLYmQJVCmTnfHO-6" target="JbOAb2mLYmQJVCmTnfHO-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JbOAb2mLYmQJVCmTnfHO-6" value="Is User&lt;div&gt;in the Security Group&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="30" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JbOAb2mLYmQJVCmTnfHO-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JbOAb2mLYmQJVCmTnfHO-7" target="JbOAb2mLYmQJVCmTnfHO-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JbOAb2mLYmQJVCmTnfHO-7" value="Show Navigation Link" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JbOAb2mLYmQJVCmTnfHO-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="JbOAb2mLYmQJVCmTnfHO-8" target="JbOAb2mLYmQJVCmTnfHO-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JbOAb2mLYmQJVCmTnfHO-8" value="Do not show Navigation Link" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JbOAb2mLYmQJVCmTnfHO-11" value="Render and Display Mega Menu" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

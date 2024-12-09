@@ -1,0 +1,104 @@
+.navBar {
+  background-color: #0078d4;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: #ffd700; /* Golden color for hover effect */
+  text-decoration: underline;
+}
+
+.megaMenu {
+  display: flex;
+  justify-content: space-around;
+  background-color: #0078d4; /* Match SharePoint OOB color */
+  padding: 10px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.megaMenuItem {
+  position: relative;
+  width: 100%; /* Ensure each item takes full width */
+}
+
+.megaMenuButton {
+  background-color: #0078d4;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  width: 100%; /* Makes the button span the entire width */
+  text-align: left;
+  transition: background-color 0.3s ease;
+}
+
+.megaMenuButton:hover {
+  background-color: #005a9e; /* Lighter shade on hover */
+}
+
+.megaMenuContent {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #0078d4;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  visibility: hidden;
+  opacity: 0;
+  border-radius: 4px;
+}
+
+/* Define the missing megaMenuColumns class */
+.megaMenuColumns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.megaMenuContent ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.megaMenuContent ul li {
+  margin-bottom: 10px;
+}
+
+.megaMenuContent ul li a {
+  color: white; /* Same color as the parent */
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 5px 10px; /* Add padding for better touch area */
+  display: block;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.megaMenuContent ul li a:hover {
+  background-color: #005a9e; /* Hover effect matches the parent */
+  color: #ffffff; /* Ensure text stays white */
+}
+
+.megaMenuItem:hover .megaMenuContent {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+}

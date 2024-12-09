@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "global-navigation-bar-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/globalNavigationBar/GlobalNavigationBarApplicationCustomizer.js",
+          "manifest": "./src/extensions/globalNavigationBar/GlobalNavigationBarApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GlobalNavigationBarApplicationCustomizerStrings": "lib/extensions/globalNavigationBar/loc/{locale}.js"
+  }
+}
