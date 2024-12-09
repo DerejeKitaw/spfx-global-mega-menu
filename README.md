@@ -38,3 +38,41 @@ The following diagram illustrates the process flow for how the SPFx extension in
    ```bash
    git clone https://github.com/derejekitaw/spfx-mega-menu.git
    ```
+2.  Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+3.  Build and deploy the solution:
+
+    ```bash
+    gulp bundle --ship
+    gulp package-solution --ship
+    ```
+
+4.  Upload the `.sppkg` package to your SharePoint App Catalog.
+
+💡 Usage
+--------
+
+Add the extension to your SharePoint site and configure the `manifest.json` properties for:
+
+-   **Background Color**
+-   **Text Color**
+-   **Hover Color**
+5. **Update Properties via the Site UI (Optional)**
+
+Properties can be updated via the **SharePoint UI** or **PowerShell** without redeploying the package. For instance:
+
+1.  **Using the Tenant-Wide Deployment**:
+
+    -   Apply the extension globally and update properties using the Tenant-Wide Deployment list.
+2.  **Using PowerShell**:
+
+    ```powershell
+    Set-PnPApplicationCustomizer -ClientSideComponentId <ComponentId> -Properties @{ "BackgroundColor" = "#ff0000"; "TextColor" = "#ffffff" }
+    ```
+
+* * * *
+
